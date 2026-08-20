@@ -1,12 +1,60 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Pragmatic-Weirdo's Website</title>
-	</head>
-	<body>
-		<header>
-			<h1>Welcome, this is still a work in progress, but it will slowly grow into a better webpage</h1>
-			<p>Hello, I go by Nojjia online.  I'm just starting to work on this website, but I hope that it will benefit you in the future.</p>
-		</header>
-	</body>
+<html lang="en">
+<head>
+	<title>Pragmatic-Weirdo's Website</title>
+	<meta charset="utf-8">
+<style>
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: black;
+	color: #cccccc;
+	padding: 2em 20em;
+}
+#homepage {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+#homepage div {
+	width: 80%;
+}
+iframe {
+	border: none;
+	width: 100%;
+	height: 50vh;
+}
+a {
+	background-color: white;
+	display: block;
+	margin: 1em auto;
+	color: black;
+	text-decoration-line: none;
+	padding: 10px;
+	border-radius: 1em;
+	border: 0.3em solid #ffa784;
+	text-align: center;
+	width: 80%;
+}
+
+a:hover {
+	background-color: #ffa784;
+	transition-duration: 0.4s;
+}
+</style>
+</head>
+<body>
+	<h1>Nojjia</h1>
+	<div id="homepage">
+		<div>
+<p>
+Welcome to my portfolio website. It is quite empty at the moment, but I plan on developing it and showcasing all my projects, the W.I.P, completed and upcoming ones.
+</p>
+			<a href="https://nojjia.github.io/threejs-learning/">The website</a>
+			<a href="https://github.com/nojjia/threejs-learning/">The github repo</a>
+		</div>
+		<iframe src="https://nojjia.github.io/threejs-learning/" title="three.js learning"></iframe>
+	</div>
+</body>
 </html>
